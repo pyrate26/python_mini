@@ -1,0 +1,23 @@
+i = 1
+tnf = 0
+t = 0
+f = 0
+ssum = 0
+while i < 1000:
+        if i%3 == 0 and i%5 == 0:
+            tnf = tnf + i 
+            
+        elif i % 3 == 0:
+            t = t + i
+            
+        elif i % 5 == 0:
+            f = f + i
+           
+        else:
+            print "not divisible", i
+        print "the value of tnf is ", tnf
+        print "the value of t is ", t
+        print "the value of f is ", f
+        i = i+1
+ssum = tnf + t + f
+print "the total is", ssum
