@@ -6,7 +6,7 @@
 
 f = 0
 s = 1
-flag = 0
+sum_even_fibo = 0
 for i in range(0,400):
 	if i <= 1:
 		nnxt = i
@@ -18,6 +18,6 @@ for i in range(0,400):
 	#print nnxt
 	# this part is not right. need to get the total of all even nos of the fibo series and should not exceed 4 million
 	if nnxt%2 == 0 and nnxt < 400:
-		flag = flag + nnxt
+		sum_even_fibo = sum_even_fibo + nnxt
 		# removed this flag1 = flag + nnxt
-		print flag
+		print sum_even_fibo
