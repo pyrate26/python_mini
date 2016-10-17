@@ -18,6 +18,6 @@ for i in range(0,400):
 	#print nnxt
 	# this part is not right. need to get the total of all even nos of the fibo series and should not exceed 4 million
 	if nnxt%2 == 0 and nnxt < 400:
-		flag = nnxt
-		flag1 = flag + nnxt
+		flag = flag + nnxt
+		# removed this flag1 = flag + nnxt
 		print flag
