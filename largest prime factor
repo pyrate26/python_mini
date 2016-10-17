@@ -5,18 +5,16 @@
 
 # variables declared
 
-given_no = 100
-prime_nos
-nnxt
-grtno
-
-x = list.range(1,100)
+prime_nos = 0
+x = range(10)
 
 # identify the prime nos not exceeding the given_no = 600851475143
 
-for i in range(1, 100):
-	if i%x.[i] == 0:
-		print ("the prime num is", x)
+for i in range(2, 10):
+	if i%x[i] == 0:
+		prime_nos = i
+		#print ("the prime num is", prime_nos)
+		temp1 = range(prime_nos)
+print ("the prime nos are \n", temp1)
 
 # greater of 2 nos
-
