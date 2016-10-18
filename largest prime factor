@@ -5,16 +5,19 @@
 
 # variables declared
 
-prime_nos = 0
-x = range(10)
+num = 100
+my_primes = []
 
-# identify the prime nos not exceeding the given_no = 600851475143
+# 1st part of the program finding the prime nos first
 
-for i in range(2, 10):
-	if i%x[i] == 0:
-		prime_nos = i
-		#print ("the prime num is", prime_nos)
-		temp1 = range(prime_nos)
-print ("the prime nos are \n", temp1)
+for i in range(2,num):  		# i knew this :)
+    isPrime = True    			# copied from youtube :(
+    for j in range(2,i): 		# i knew this :)
+       if i%j==0:       		# i knew this :)
+           isPrime = False 		# copied from youtube :(
+    if isPrime: 			# copied from youtube :(
+        my_primes.append(i)  		# i knew this :)
+print my_primes  			# i knew this :)
+   
 
-# greater of 2 nos
+# 2nd part of the program find the prime factors ?????
