@@ -1,5 +1,10 @@
-""" this is a comment """
+""" this is a comment 
+"""A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
+Find the largest palindrome made from the product of two 3-digit numbers."""
+
+
+""" to find a palindrome """
 print("Palindrome")
 new_string = []
 my_string = input("Enter a word or a number:")
@@ -8,4 +13,12 @@ if my_string == new_string:
 	print("its a palindrome")
 else:
 	print("its not a palindrome")
+
+
+""" to find a product of 2 nos"""
+
+
+
+""" to find greater of 2 nos"""
+	
 	
