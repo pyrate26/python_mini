@@ -1,0 +1,11 @@
+""" this is a comment """
+
+print("Palindrome")
+new_string = []
+my_string = input("Enter a word or a number:")
+new_string = my_string[::-1]
+if my_string == new_string:
+	print("its a palindrome")
+else:
+	print("its not a palindrome")
+	
